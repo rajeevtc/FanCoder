@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FanCoder_Example' do
+  pod 'FanCoder', :path => '../'
+
+  target 'FanCoder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
