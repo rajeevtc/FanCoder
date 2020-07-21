@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FanCoder'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of FanCoder.'
+  s.version          = '1.0.0'
+  s.summary          = 'This library can be used to record video and encode and broadcast it to transcoder of any Streaming Cloud or Engine'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,15 +28,15 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/rajeevhivelocity/FanCoder.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'FanCoder/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'FanCoder' => ['FanCoder/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'AVFoundation', 'VideoToolbox', 'UIKit'
+  s.dependency 'HaishinKit', '~> 1.0.9'
 end
