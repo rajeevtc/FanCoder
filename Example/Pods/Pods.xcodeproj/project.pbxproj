@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12570AA655AB0722148989BB491B0335 /* Pods-FanCoder_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3386822D070E5A7EF40A9EE38F9E6D7 /* Pods-FanCoder_Example-dummy.m */; };
+		189281106E8E3836EABE4A6398A64866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		23ACE38DEA2982D0B292E26BBFBEB3DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2574B7378BE347A3B07636CD78BF56E1 /* Pods-FanCoder_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C841C88C12C54315C1C4CEA47D68C /* Pods-FanCoder_Tests-dummy.m */; };
+		456E6AB48E7DE67FC034F6F53974C22B /* FanCoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B942F448690522FF2DD03600FF2C59B /* FanCoder-dummy.m */; };
+		6AA8F6CEA12D2A9C68BC627A5D925645 /* Pods-FanCoder_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29BBA8AA10D0AA32EB5B14A4A0B1B536 /* Pods-FanCoder_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A6340814CD014CCE0F75D202566A12 /* Pods-FanCoder_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0607EAA2861F246599351CA2298C0957 /* Pods-FanCoder_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95AA9DADF89A5725859158FF46B63013 /* FanCoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 660AB3D52F99BB83C35FE671F11894D9 /* FanCoder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C0C46391346A191C119492B48959D5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B2717BCB71A595C5F7FA8613054A09FE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B85E7E88B55C9DCE296C79FD592EE0 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9140925693ABD6A05AEBE1EC90390FD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4512A6D219A544733BEF1AAE9ACD1128;
+			remoteInfo = FanCoder;
+		};
+		EE82B6B1432C708CD41529F9EDE34102 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1267D27D0C763BB53E1995E440B9CC2F;
+			remoteInfo = "Pods-FanCoder_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0607EAA2861F246599351CA2298C0957 /* Pods-FanCoder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FanCoder_Example-umbrella.h"; sourceTree = "<group>"; };
+		0A5E6AC53A6194F6E048B70C6C594213 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		18ACCAD497E56321372548F40A15C119 /* Pods-FanCoder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FanCoder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27A1A805D26E7F49A9F7EB3AD3A83CCD /* Pods-FanCoder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FanCoder_Example-frameworks.sh"; sourceTree = "<group>"; };
+		29BBA8AA10D0AA32EB5B14A4A0B1B536 /* Pods-FanCoder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FanCoder_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		332AFEE778CFF113A42D1E143C249D17 /* FanCoder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FanCoder-Info.plist"; sourceTree = "<group>"; };
+		35FDCED2A579753B9885C46BC1D0D079 /* Pods-FanCoder_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FanCoder_Tests-Info.plist"; sourceTree = "<group>"; };
+		44FF1299A67CAAE62F1AF7CBDD6569D6 /* Pods-FanCoder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FanCoder_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		45B85E7E88B55C9DCE296C79FD592EE0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FanCoder/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4CB7D620E418D9E746E1AD2315990D38 /* FanCoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FanCoder-prefix.pch"; sourceTree = "<group>"; };
+		5049D0FEBAC47D2D4F4815E51E12A711 /* Pods-FanCoder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FanCoder_Example-Info.plist"; sourceTree = "<group>"; };
+		57AAC95541861D9DBE9F0906232161A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		660AB3D52F99BB83C35FE671F11894D9 /* FanCoder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FanCoder-umbrella.h"; sourceTree = "<group>"; };
+		6B942F448690522FF2DD03600FF2C59B /* FanCoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FanCoder-dummy.m"; sourceTree = "<group>"; };
+		804B78C73BFE4EA012606718B113BC84 /* Pods-FanCoder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FanCoder_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		941C841C88C12C54315C1C4CEA47D68C /* Pods-FanCoder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FanCoder_Tests-dummy.m"; sourceTree = "<group>"; };
+		986771125946436973BF665EAF95681E /* FanCoder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FanCoder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9AAB4D3AB38B851D9B97615BE184C3B0 /* Pods_FanCoder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FanCoder_Tests.framework; path = "Pods-FanCoder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A03A43A16B0A84D74609603C263746CB /* Pods-FanCoder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FanCoder_Example.modulemap"; sourceTree = "<group>"; };
+		A89D73C5A133804E90F4CA841CE7AE8C /* Pods-FanCoder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FanCoder_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B021128A3D5DB044C26591A605A3E5E1 /* Pods_FanCoder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FanCoder_Example.framework; path = "Pods-FanCoder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5A71CD19A35CDC148A6B856D80CD0AA /* Pods-FanCoder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FanCoder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6138CEAA07FE180AEDF3588D6C2977 /* Pods-FanCoder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FanCoder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3EDE1D9F2EF1BEF2C08928A1CB238DB /* FanCoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FanCoder.debug.xcconfig; sourceTree = "<group>"; };
+		DB49A6D0057E41365255AF5A170A1DC9 /* Pods-FanCoder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FanCoder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE02DDFB4173BE83DC0EEEC1625C9DC6 /* FanCoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FanCoder.framework; path = FanCoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3386822D070E5A7EF40A9EE38F9E6D7 /* Pods-FanCoder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FanCoder_Example-dummy.m"; sourceTree = "<group>"; };
+		E77D96FFB0AC60C6D8753536A40E69FE /* Pods-FanCoder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FanCoder_Tests.modulemap"; sourceTree = "<group>"; };
+		E7AD5B4B95A75414C98E4A7527668C7E /* Pods-FanCoder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FanCoder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FA46A64DC9EB7A3C9FC903DB2203E81B /* FanCoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FanCoder.release.xcconfig; sourceTree = "<group>"; };
+		FE6C7D44F9DA026885DBECDE73116FA7 /* FanCoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FanCoder.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19941E6854B556AA8A18FC38F0009813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C0C46391346A191C119492B48959D5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDB5FCBA2145CE8E916B11541377FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ACE38DEA2982D0B292E26BBFBEB3DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC331C33FC6FC0922D6E2A300DEA8FE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189281106E8E3836EABE4A6398A64866 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F915CFE86E191DF86A4A3098506A2E /* FanCoder */ = {
+			isa = PBXGroup;
+			children = (
+				45B85E7E88B55C9DCE296C79FD592EE0 /* ReplaceMe.swift */,
+				73E6827DEB4B883B670A3FB4C60BD847 /* Pod */,
+				60658D7A972BDC6640184C5291F36D67 /* Support Files */,
+			);
+			name = FanCoder;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5072E83345D466CDAAF867310D2A01B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F14A8249E3BD2CFB378CA4A11A408D7 /* Pods-FanCoder_Example */,
+				C578F93E02868A1DC0BA14E23A53A709 /* Pods-FanCoder_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		60658D7A972BDC6640184C5291F36D67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE6C7D44F9DA026885DBECDE73116FA7 /* FanCoder.modulemap */,
+				6B942F448690522FF2DD03600FF2C59B /* FanCoder-dummy.m */,
+				332AFEE778CFF113A42D1E143C249D17 /* FanCoder-Info.plist */,
+				4CB7D620E418D9E746E1AD2315990D38 /* FanCoder-prefix.pch */,
+				660AB3D52F99BB83C35FE671F11894D9 /* FanCoder-umbrella.h */,
+				C3EDE1D9F2EF1BEF2C08928A1CB238DB /* FanCoder.debug.xcconfig */,
+				FA46A64DC9EB7A3C9FC903DB2203E81B /* FanCoder.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FanCoder";
+			sourceTree = "<group>";
+		};
+		73E6827DEB4B883B670A3FB4C60BD847 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				986771125946436973BF665EAF95681E /* FanCoder.podspec */,
+				0A5E6AC53A6194F6E048B70C6C594213 /* LICENSE */,
+				57AAC95541861D9DBE9F0906232161A3 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8F14A8249E3BD2CFB378CA4A11A408D7 /* Pods-FanCoder_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A03A43A16B0A84D74609603C263746CB /* Pods-FanCoder_Example.modulemap */,
+				E7AD5B4B95A75414C98E4A7527668C7E /* Pods-FanCoder_Example-acknowledgements.markdown */,
+				BE6138CEAA07FE180AEDF3588D6C2977 /* Pods-FanCoder_Example-acknowledgements.plist */,
+				E3386822D070E5A7EF40A9EE38F9E6D7 /* Pods-FanCoder_Example-dummy.m */,
+				27A1A805D26E7F49A9F7EB3AD3A83CCD /* Pods-FanCoder_Example-frameworks.sh */,
+				5049D0FEBAC47D2D4F4815E51E12A711 /* Pods-FanCoder_Example-Info.plist */,
+				0607EAA2861F246599351CA2298C0957 /* Pods-FanCoder_Example-umbrella.h */,
+				804B78C73BFE4EA012606718B113BC84 /* Pods-FanCoder_Example.debug.xcconfig */,
+				A89D73C5A133804E90F4CA841CE7AE8C /* Pods-FanCoder_Example.release.xcconfig */,
+			);
+			name = "Pods-FanCoder_Example";
+			path = "Target Support Files/Pods-FanCoder_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C578F93E02868A1DC0BA14E23A53A709 /* Pods-FanCoder_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E77D96FFB0AC60C6D8753536A40E69FE /* Pods-FanCoder_Tests.modulemap */,
+				DB49A6D0057E41365255AF5A170A1DC9 /* Pods-FanCoder_Tests-acknowledgements.markdown */,
+				18ACCAD497E56321372548F40A15C119 /* Pods-FanCoder_Tests-acknowledgements.plist */,
+				941C841C88C12C54315C1C4CEA47D68C /* Pods-FanCoder_Tests-dummy.m */,
+				35FDCED2A579753B9885C46BC1D0D079 /* Pods-FanCoder_Tests-Info.plist */,
+				29BBA8AA10D0AA32EB5B14A4A0B1B536 /* Pods-FanCoder_Tests-umbrella.h */,
+				B5A71CD19A35CDC148A6B856D80CD0AA /* Pods-FanCoder_Tests.debug.xcconfig */,
+				44FF1299A67CAAE62F1AF7CBDD6569D6 /* Pods-FanCoder_Tests.release.xcconfig */,
+			);
+			name = "Pods-FanCoder_Tests";
+			path = "Target Support Files/Pods-FanCoder_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D67B9157714B2DA3AC03C9E858ED2506 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D05DDDF226B33A3E489E2D84CFB8CF2C /* Products */,
+				5072E83345D466CDAAF867310D2A01B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D05DDDF226B33A3E489E2D84CFB8CF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE02DDFB4173BE83DC0EEEC1625C9DC6 /* FanCoder.framework */,
+				B021128A3D5DB044C26591A605A3E5E1 /* Pods_FanCoder_Example.framework */,
+				9AAB4D3AB38B851D9B97615BE184C3B0 /* Pods_FanCoder_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D67B9157714B2DA3AC03C9E858ED2506 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11F915CFE86E191DF86A4A3098506A2E /* FanCoder */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51EB39AEC0F0D4A6A53784E346F61775 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91A6340814CD014CCE0F75D202566A12 /* Pods-FanCoder_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707D4FF2DA015C15D7C188F914EFC5E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AA8F6CEA12D2A9C68BC627A5D925645 /* Pods-FanCoder_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD864E6D16952FDF295C29686A4758D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AA9DADF89A5725859158FF46B63013 /* FanCoder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1267D27D0C763BB53E1995E440B9CC2F /* Pods-FanCoder_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A764E643B26D8CCF3401A1A67E9C9A /* Build configuration list for PBXNativeTarget "Pods-FanCoder_Example" */;
+			buildPhases = (
+				51EB39AEC0F0D4A6A53784E346F61775 /* Headers */,
+				6E5B4F58EB827F1E69771776993CFF67 /* Sources */,
+				19941E6854B556AA8A18FC38F0009813 /* Frameworks */,
+				725B925C3BE60D1A335C3C047E5125DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A82E3367E06B4C8E554D122990D95C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-FanCoder_Example";
+			productName = "Pods-FanCoder_Example";
+			productReference = B021128A3D5DB044C26591A605A3E5E1 /* Pods_FanCoder_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4512A6D219A544733BEF1AAE9ACD1128 /* FanCoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C5C2C030BFB73376C219D42C6DC655 /* Build configuration list for PBXNativeTarget "FanCoder" */;
+			buildPhases = (
+				DD864E6D16952FDF295C29686A4758D0 /* Headers */,
+				2A7F240756C34B13844BAC379E05A11A /* Sources */,
+				CC331C33FC6FC0922D6E2A300DEA8FE3 /* Frameworks */,
+				24D0CB82B66F19C664CF830CD5291176 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanCoder;
+			productName = FanCoder;
+			productReference = DE02DDFB4173BE83DC0EEEC1625C9DC6 /* FanCoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF5C935F6A45EAC95F26DB188431BDC0 /* Pods-FanCoder_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46BB3EFD8544DAB38280097EC30BF87B /* Build configuration list for PBXNativeTarget "Pods-FanCoder_Tests" */;
+			buildPhases = (
+				707D4FF2DA015C15D7C188F914EFC5E1 /* Headers */,
+				D8A544C3002254B75869FAF6C7F2A3D8 /* Sources */,
+				BBDB5FCBA2145CE8E916B11541377FF5 /* Frameworks */,
+				5F49B0F39309FE1602E9544FBCA46738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE4F46CB56E574DCC68FDDA71B968617 /* PBXTargetDependency */,
+			);
+			name = "Pods-FanCoder_Tests";
+			productName = "Pods-FanCoder_Tests";
+			productReference = 9AAB4D3AB38B851D9B97615BE184C3B0 /* Pods_FanCoder_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D05DDDF226B33A3E489E2D84CFB8CF2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4512A6D219A544733BEF1AAE9ACD1128 /* FanCoder */,
+				1267D27D0C763BB53E1995E440B9CC2F /* Pods-FanCoder_Example */,
+				DF5C935F6A45EAC95F26DB188431BDC0 /* Pods-FanCoder_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D0CB82B66F19C664CF830CD5291176 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F49B0F39309FE1602E9544FBCA46738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725B925C3BE60D1A335C3C047E5125DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A7F240756C34B13844BAC379E05A11A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456E6AB48E7DE67FC034F6F53974C22B /* FanCoder-dummy.m in Sources */,
+				B2717BCB71A595C5F7FA8613054A09FE /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5B4F58EB827F1E69771776993CFF67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12570AA655AB0722148989BB491B0335 /* Pods-FanCoder_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A544C3002254B75869FAF6C7F2A3D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2574B7378BE347A3B07636CD78BF56E1 /* Pods-FanCoder_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A82E3367E06B4C8E554D122990D95C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FanCoder;
+			target = 4512A6D219A544733BEF1AAE9ACD1128 /* FanCoder */;
+			targetProxy = 9140925693ABD6A05AEBE1EC90390FD4 /* PBXContainerItemProxy */;
+		};
+		BE4F46CB56E574DCC68FDDA71B968617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FanCoder_Example";
+			target = 1267D27D0C763BB53E1995E440B9CC2F /* Pods-FanCoder_Example */;
+			targetProxy = EE82B6B1432C708CD41529F9EDE34102 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15CA370B3616464690FAD2D002D2B544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A71CD19A35CDC148A6B856D80CD0AA /* Pods-FanCoder_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FanCoder_Tests/Pods-FanCoder_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FanCoder_Tests/Pods-FanCoder_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5882BF709FC0449F0924110789C2FF49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89D73C5A133804E90F4CA841CE7AE8C /* Pods-FanCoder_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FanCoder_Example/Pods-FanCoder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FanCoder_Example/Pods-FanCoder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AB872EA429532A4CCCAC32D33C26307 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804B78C73BFE4EA012606718B113BC84 /* Pods-FanCoder_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FanCoder_Example/Pods-FanCoder_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FanCoder_Example/Pods-FanCoder_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		922D8404793EBF1496231010DE632DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FF1299A67CAAE62F1AF7CBDD6569D6 /* Pods-FanCoder_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FanCoder_Tests/Pods-FanCoder_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FanCoder_Tests/Pods-FanCoder_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A52AD8B0FED0713A333F89FA930B0724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3EDE1D9F2EF1BEF2C08928A1CB238DB /* FanCoder.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FanCoder/FanCoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FanCoder/FanCoder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FanCoder/FanCoder.modulemap";
+				PRODUCT_MODULE_NAME = FanCoder;
+				PRODUCT_NAME = FanCoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BB8A555B613681F941F43C1072C8859C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA46A64DC9EB7A3C9FC903DB2203E81B /* FanCoder.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FanCoder/FanCoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FanCoder/FanCoder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FanCoder/FanCoder.modulemap";
+				PRODUCT_MODULE_NAME = FanCoder;
+				PRODUCT_NAME = FanCoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07C5C2C030BFB73376C219D42C6DC655 /* Build configuration list for PBXNativeTarget "FanCoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52AD8B0FED0713A333F89FA930B0724 /* Debug */,
+				BB8A555B613681F941F43C1072C8859C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A764E643B26D8CCF3401A1A67E9C9A /* Build configuration list for PBXNativeTarget "Pods-FanCoder_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB872EA429532A4CCCAC32D33C26307 /* Debug */,
+				5882BF709FC0449F0924110789C2FF49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46BB3EFD8544DAB38280097EC30BF87B /* Build configuration list for PBXNativeTarget "Pods-FanCoder_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CA370B3616464690FAD2D002D2B544 /* Debug */,
+				922D8404793EBF1496231010DE632DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

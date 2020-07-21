@@ -1,0 +1,6 @@
+framework module FanCoder {
+  umbrella header "FanCoder-umbrella.h"
+
+  export *
+  module * { export * }
+}

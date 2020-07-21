@@ -1,0 +1,22 @@
+{
+  "name": "FanCoder",
+  "version": "0.1.0",
+  "summary": "A short description of FanCoder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rajeevhivelocity/FanCoder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rajeevhivelocity": "rajeev@hivelocity.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/rajeevhivelocity/FanCoder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FanCoder/Classes/**/*"
+}

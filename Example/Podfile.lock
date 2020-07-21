@@ -1,0 +1,16 @@
+PODS:
+  - FanCoder (0.1.0)
+
+DEPENDENCIES:
+  - FanCoder (from `../`)
+
+EXTERNAL SOURCES:
+  FanCoder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FanCoder: 826ec774bc2aae94ee1a6342a600f263442eb105
+
+PODFILE CHECKSUM: c04885b91a1d9a2045ae98c51131b90307ae6783
+
+COCOAPODS: 1.9.1

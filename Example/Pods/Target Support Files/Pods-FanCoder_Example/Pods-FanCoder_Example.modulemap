@@ -1,0 +1,6 @@
+framework module Pods_FanCoder_Example {
+  umbrella header "Pods-FanCoder_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
