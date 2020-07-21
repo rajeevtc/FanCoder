@@ -11,7 +11,7 @@ import HaishinKit
 import AVFoundation
 import VideoToolbox
 
-class FanCoder: NSObject {
+public class FanCoder: NSObject {
 
     static let shared = FanCoder()
     private var rtmpConnection = RTMPConnection()
@@ -22,12 +22,12 @@ class FanCoder: NSObject {
     private var serverStatusRTMPClosure: ((Timer) -> Void) = { _ in }
     private var serverStatusTimerRTMP: Timer?
 
-    var cameraView: UIView?
-    var broadcastURL: String?
+    public var cameraView: UIView?
+    public var broadcastURL: String?
 
-    weak var delegate: FanBroadcastStatusCallback?
+    public weak var delegate: FanBroadcastStatusCallback?
 
-    func initializeCamera() {
+    public func initializeCamera() {
         let session = AVAudioSession.sharedInstance()
         do {
             if #available(iOS 10.0, *) {
@@ -46,7 +46,7 @@ class FanCoder: NSObject {
         }
     }
 
-    func prepareFanCoderSettings() {
+    public func prepareFanCoderSettings() {
            rtmpStream = RTMPStream(connection: rtmpConnection)
            rtmpStream?.orientation = .landscapeLeft
            rtmpStream?.captureSettings = [
@@ -108,7 +108,7 @@ class FanCoder: NSObject {
         }
     }
 
-    func startCameraView() {
+    public func startCameraView() {
         guard let view = cameraView else { return }
         let hkView = HKView(frame: view.bounds)
         hkView.videoGravity = AVLayerVideoGravity.resizeAspectFill
@@ -119,7 +119,7 @@ class FanCoder: NSObject {
         perform(#selector(communicateForServerRTMPStatus), with: self, afterDelay: 20.0)
     }
 
-    func publishStream(streamName: String) {
+    public func publishStream(streamName: String) {
         rtmpStream?.publish(streamName)
     }
 
@@ -137,13 +137,13 @@ class FanCoder: NSObject {
         rtmpConnection.addEventListener(Event.Name.rtmpStatus, selector: #selector(FanCoder.rtmpStatusHandler(_:)), observer: self)
     }
 
-    func switchCamera() {
+    public func switchCamera() {
         cameraPosition = cameraPosition == .back ? .front : .back
         rtmpStream?.attachCamera(DeviceUtil.device(withPosition: cameraPosition)) { _ in
         }
     }
 
-    func dispose() {
+    public func dispose() {
         rtmpStream?.close()
         rtmpStream?.dispose()
         rtmpConnection.removeEventListener(Event.Name.rtmpStatus, selector: #selector(FanCoder.rtmpStatusHandler(_:)), observer: self)

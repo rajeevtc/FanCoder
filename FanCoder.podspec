@@ -39,4 +39,6 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'AVFoundation', 'VideoToolbox', 'UIKit'
   s.dependency 'HaishinKit', '~> 1.0.9'
+  s.swift_version = '5.0'
+  s.platform = :ios, "11.0"
 end

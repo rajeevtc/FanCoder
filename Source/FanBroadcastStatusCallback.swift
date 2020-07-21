@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol FanBroadcastStatusCallback: class {
+public protocol FanBroadcastStatusCallback: class {
     func onFanCoderStatus(status: FanBroadcastState)
     func onFanCoderError(error: Error)
 }
